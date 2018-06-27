@@ -12,7 +12,7 @@
 # include "cell.h"
 # include "2d_Solver.h"
 
-# define ENABLE_OPENMP
+// # define ENABLE_OPENMP
 
 template class Solver2d<float>;
 template class Solver2d<double>;
