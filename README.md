@@ -1,5 +1,7 @@
 # Yao's 2D-MST Algorithm
 
+Github: https://github.com/LyricZhao/YAO-MST2D
+
 OOP Team Project by **Zhao Chenggang & Zhou Yunshuo**.
 
 - [x] OOP Design Style.
@@ -24,9 +26,9 @@ OOP Team Project by **Zhao Chenggang & Zhou Yunshuo**.
 - For class 1, we implemented k-d tree algorithm (instead of Voronoi Algorithm, which is not required) to find $p$’s  nearest neighbor in the cell while ignoring cells of class 2 (because no point in this kind of class is in the region). 
 - We then examine each cell in turn for cells in class 3 and compute the distance between all points in the cell and $v$; this concludes the ENP question.
 
-​	Since the Kruskal algorithm is not the key point of this study,  further explanation of that would be omitted.
+		Since the Kruskal algorithm is not the key point of this study,  further explanation of that would be omitted.
 
-​	And we also implement *OpenMP* to accelerate the calcuation.
+	And we also implement *OpenMP* to accelerate the calcuation.
 
 ## 2. Implement Design
 
@@ -266,3 +268,10 @@ OOP Team Project by **Zhao Chenggang & Zhou Yunshuo**.
 
 ## 5.Conclusion 
 
+​	The project we did on implementing Yao’s algorithm for finding minimum spanning tree is mainly about creating a testing environment, realizing Yao’s algorithm and comparing its efficiency to bruteforce, and k-d tree methods.
+
+​	In our project, we fully utilized Object-Oriented Programming design style by employing template types and function-object classes in order to lower code redundancy as well as to strengthen its scalability as a whole. To scrutinize and verify the generated answer we carried out, several tests have been conducted and the results are shown in the above chart, where it proposes that Yao's algorithm is must faster than the others. Therefore , the experiments turn out to be successful and correct.
+
+​	However, there still left some space for improvements; for instance, to further ensure the complexity using Voronoi Algorithm as well as to visualize the results of the generated  minimum spanning tree.
+
+​	In a nutshell, this project implementing Yao’s algorithm by applying OOP design style and validation on improving the efficiency of MST construction methods. 
