@@ -30,6 +30,12 @@ OOP Team Project by **Zhao Chenggang & Zhou Yunshuo**.
 
 ## 2. Implement Design
 
+- To show the relationship better, we draw a UML class diagram.
+
+![IMG](http://otxp6khet.bkt.clouddn.com/WechatIMG394.jpeg)
+
+- The two main solver is *Solver2d* and *normalSolver2d*, the main design style is by **composition**.
+
 ## 3.Details
 
 ### 3.0 Algorithm Flow
@@ -252,6 +258,11 @@ OOP Team Project by **Zhao Chenggang & Zhou Yunshuo**.
   - Determine which algorithm to test or both.
 
 ## 4.Experiments
+
+- We did some tests to check the result and also compare the efficiency.
+- Here is the result, we can see that the Yao's algorithm($O(n^2)$) is must faster than the bruteforce ($O(n^2logn)$), and kd-tree version($O(n^{\frac{5}{3}}logn)$) is also faster than the normal Yao's algorithm.
+
+![IMG](http://otxp6khet.bkt.clouddn.com/WX20180701-154932@2x.png)
 
 ## 5.Conclusion 
 

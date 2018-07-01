@@ -6,7 +6,7 @@
 
 # include "cell.h"
 
-# define ENABLE_KD_OPT
+// # define ENABLE_KD_OPT
 
 template class Cell<float>;
 template class Cell<double>;

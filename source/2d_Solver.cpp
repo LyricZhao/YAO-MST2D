@@ -163,7 +163,7 @@ void Solver2d<valType>:: cellsDivide() {
 template <class valType>
 void Solver2d<valType>:: querySinglePoint(Point<valType> ord, Point<valType> axi, Point<valType> &result) {
   # ifdef ENABLE_OPENMP
-  # pragma omp parallel for
+  # pragma omp parallel for schedule(runtime)
   # endif
   for(int i = 0; i < cells.size(); ++ i) {
     Point<valType> singleCellResult(1e9, 1e9, 0);
