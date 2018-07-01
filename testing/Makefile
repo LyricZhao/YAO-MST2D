@@ -5,7 +5,7 @@ KD_SOURCE_DIR = ../source/KD-Opt
 SOURCE_OBJS = $(SOURCE_DIR)/graph.o $(SOURCE_DIR)/kruskal.o $(SOURCE_DIR)/ufs.o $(SOURCE_DIR)/cell.o $(SOURCE_DIR)/2d_Solver.o $(KD_SOURCE_DIR)/kdTree.o
 TESTING_OBJS = main.o rand.o time.o normal_Solver.o
 
-CXXC = g++-7
+CXXC = g++
 CXXFLAGS = -std=c++11 -O2 -fopenmp
 LINKFLAGS = -fopenmp
 
